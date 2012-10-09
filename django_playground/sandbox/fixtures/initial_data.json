@@ -1,0 +1,95 @@
+[
+    {
+        "pk": 1,
+        "model": "sandbox.thing",
+        "fields": {
+            "owners": [
+                2
+            ],
+            "name": "Alice's Thing"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "sandbox.thing",
+        "fields": {
+            "owners": [
+                3
+            ],
+            "name": "Bob's Thing"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "sandbox.thing",
+        "fields": {
+            "owners": [
+                2,
+                3
+            ],
+            "name": "Everyone's Thing"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "auth.user",
+        "fields": {
+            "username": "timo",
+            "first_name": "",
+            "last_name": "",
+            "is_active": true,
+            "is_superuser": true,
+            "is_staff": true,
+            "last_login": "2012-09-03 13:22:34",
+            "groups": [],
+            "user_permissions": [],
+            "password": "sha1$44384$cd32d1cfe4bbe8af13e23a027efd0c179b6f79d7",
+            "email": "twuersch@gmail.com",
+            "date_joined": "2012-09-03 13:21:01"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "auth.user",
+        "fields": {
+            "username": "alice",
+            "first_name": "",
+            "last_name": "",
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": true,
+            "last_login": "2012-09-03 13:29:57",
+            "groups": [],
+            "user_permissions": [
+                25,
+                26,
+                27
+            ],
+            "password": "sha1$2bfc5$0493da6e5d170671657ab4f0b01f8e5d734fd5ea",
+            "email": "",
+            "date_joined": "2012-09-03 13:29:57"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "auth.user",
+        "fields": {
+            "username": "bob",
+            "first_name": "",
+            "last_name": "",
+            "is_active": true,
+            "is_superuser": false,
+            "is_staff": true,
+            "last_login": "2012-09-03 13:30:28",
+            "groups": [],
+            "user_permissions": [
+                25,
+                26,
+                27
+            ],
+            "password": "sha1$04c06$6c37366536b5c0de6ff124339f1ae8eb8b849910",
+            "email": "",
+            "date_joined": "2012-09-03 13:30:28"
+        }
+    }
+]

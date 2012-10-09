@@ -1,0 +1,7 @@
+*.class
+*.pyc
+*.pyo
+sqlite.db
+.settings
+.pydevproject
+.project

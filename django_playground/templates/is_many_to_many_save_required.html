@@ -1,0 +1,14 @@
+<html>
+    <body>
+        {% if owners %}
+            And the owners are:
+            <ul>
+                {% for owner in owners %}
+                    <li>{{ owner }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            No owners
+        {% endif %}
+    </body>
+</html>
